@@ -1,0 +1,48 @@
+.navbar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100px;
+}
+
+.links{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 8%;
+}
+
+.btn{
+	background-color: transparent;
+	border: 1px ridge #53c38b;
+	color: #53c38b;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.btn:hover{
+	color: white;
+	background-color: #53c38b;
+	cursor: pointer;
+}
+
+.footer{
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.social{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 5%;
+}
+
+.icon:hover{
+	opacity: 0.6;
+	cursor: pointer;
+}
