@@ -6,7 +6,7 @@ import "./components.css";
 const Navbar = () => {
 	return (
 		<div className="navbar">
-			<Link href="/"><Image width='100' height='100' src="/next.svg" /></Link>
+			<Link href="/"><Image alt='logo' width='100' height='100' src="/next.svg" /></Link>
 			<div className="links">
 				<Link href="/about">About</Link>
 				<Link href="/contact">Contact</Link>

@@ -27,15 +27,14 @@
 .input{
 	padding: 20px;
 	background-color: transparent;
-	border: 2px ridge #bbb;
-	outline: none;
+	border: none;
+	outline: 2px ridge #bbb;
 	color: #bbb;
 	font-weight: bold;
 }
 
 .input:focus{
-	outline: 2px ridge white;
-	border: none;
+	outline: 3px ridge white;
 }
 
 .btn{
