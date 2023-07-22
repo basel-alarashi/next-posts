@@ -20,6 +20,20 @@ a {
   text-decoration: none;
 }
 
+.theme{
+  transition: 1.5s all linear;
+}
+
+.dark{
+  background-color: #222;
+  color: white;
+}
+
+.light{
+  background-color: white;
+  color: #222;
+}
+
 .container{
   max-width: 1336px;
   min-height: 100vh;

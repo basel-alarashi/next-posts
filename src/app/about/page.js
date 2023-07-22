@@ -3,6 +3,11 @@ import styles from './page.module.css';
 import Image from 'next/Image';
 import Link from 'next/Link';
 
+export const metadata = {
+	title: 'About us',
+	description: 'Information about us'
+};
+
 const About = () => {
 	return (
 		<div className={styles.main}>

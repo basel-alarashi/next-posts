@@ -3,6 +3,11 @@ import Image from 'next/Image';
 import styles from './page.module.css';
 // import Link from 'next/Link';
 
+export const metadata = {
+	title: 'Contact our team',
+	description: 'Our support team'
+};
+
 const Contact = () => {
 	return (
 		<div>
